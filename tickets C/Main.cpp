@@ -179,7 +179,7 @@ BigInt CalcLuck(uint LenghtNTicket, uint SysNot)
 					element |= IMAX;
 					offbit = true;
 				}
-				List0->data = element - (List3 ? List3->data : 0ull);//Ã¯Ã°Ã¨ Ã¢Ã»Ã·Ã¨Ã²Ã Ã­Ã¨Ã¨ Ã¯Ã°Ã®Ã¢Ã¥Ã°Ã¨Ã²Ã¼ Ã¯Ã°Ã¥Ã¤Ã»Ã¤Ã³Ã¹Ã¨Ã© Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã² Ã±Ã¯Ã¨Ã±ÃªÃ 
+				List0->data = element - (List3 ? List3->data : 0ull);//ïğè âû÷èòàíèè ïğîâåğèòü ïğåäûäóùèé ıëåìåíò ñïèñêà
 				if (addbit) {
 					List0->data++;
 					addbit = false;
