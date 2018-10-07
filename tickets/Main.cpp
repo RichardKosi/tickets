@@ -217,6 +217,7 @@ BigInt CalcLuck(uint LenghtNTicket, uint SysNot)
 }
 
 int main(int argc, char* argv[]) {
+
 	int maxstr = 256;
 	char *a = new char[maxstr + 1];
 	for (int i = 0, j = 0; j < maxstr; i--, j++) a[j] = ((i == -1) ? i = 9 : i) + '0';
