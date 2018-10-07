@@ -8,7 +8,7 @@
 
 #define LENGHT 40
 #define SYSNOT 10
-#define òùTIMETEST //BINTESTOUT / DECTESTOUT / TIMETEST
+#define NOTEST //BINTESTOUT // DECTESTOUT // TIMETEST
 
 typedef unsigned long long ull;
 typedef unsigned int uint;
@@ -216,7 +216,7 @@ BigInt CalcLuck(uint LenghtNTicket, uint SysNot)
 	return *Arr[left][height - 1];
 }
 
-int main() {
+int main(int argc, char* argv[]) {
 	int maxstr = 256;
 	char *a = new char[maxstr + 1];
 	for (int i = 0, j = 0; j < maxstr; i--, j++) a[j] = ((i == -1) ? i = 9 : i) + '0';
